@@ -14,7 +14,16 @@ en creation le dépot à distance ,apres lui avoir donné  donner un nom  ,vous 
 (qui ne sera vu dans ce cas que par vos collaboLe depot  initrateurs) ou visible par tous les utilisateurs du réseau
 ( par la mention public).
 
-La commande ** git clone "l'url du depot distant" permet de le récuperer en locale.ialisé par defaut contient 
+La commande ** git clone "l'url du depot distant" permet de le récuperer en locale.
+
+![]("C:/Users/skeita/Desktop/depotDistant/recuperation du dupot.PNG")
+
+##Ajoute/commit/pushe  de quelques fichiers 
+
+
+et vérifiez sur le site Gogs que les modifications sont bien sur le serveur.
+
+ialisé par defaut contient 
 un fichier .git  et un premier  fichier README.md  par defaut.
 
 
