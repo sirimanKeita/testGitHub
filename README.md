@@ -16,9 +16,20 @@ la commande *vi nom_fichier* permet d'apprter des modifications dans un fichier 
 ![]( "C:/Users/skeita/Desktop/depotlocalf/modification_file+comit.PNG")
 dans ce cas, seul le fichier nommé file a été commité , on utiliserait *git commit -a* pour versionner les deux fichiers à la fois.Ce qui necessiterait l'utilisation d'une console pour ecrire le message du commit.
 
-## Comment renommer et supprimer un fichier
+## Comment renommer et supprimer un fichier?
 la commande *git mv "nom_fichier" "nom_fichier* permet de renommer un fichier.Son la supression on sert de *git rm "nom_fichier"*.
 
-![]( "C:/Users/skeita/Desktop/depotlocalf/modification_file+comit.PNG")
+![]( "C:/Users/skeita/Desktop/depotlocalf/4 supre-renomme.PNG")
+
+## Comment affichez l'historique des commits et reveni dans un état précédent du dépot?
+
+pour afficher les diffrentes versions d'un projet ou l'historique des commits on utilise la commande *git log*. le retour dans un état précédent du dépot consiste à annuler les dernieres modifications du projet .pour cela ,on utilise la commande *git checkout -- .*
+
+![]( "C:/Users/skeita/Desktop/depotlocalf/5_histo_retour.PNG")
+
+
+
+
+
 
 
