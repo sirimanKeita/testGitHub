@@ -17,7 +17,8 @@ la commande *vi nom_fichier* permet d'apprter des modifications dans un fichier 
 dans ce cas, seul le fichier nommé file a été commité , on utiliserait *git commit -a* pour versionner les deux fichiers à la fois.Ce qui necessiterait l'utilisation d'une console pour ecrire le message du commit.
 
 ## Comment renommer et supprimer un fichier
-la commande *mv "nom_fichier" "nom_fichier* permet de renommer un fichier.Son la supression on sert de *rm "nom_fichier"*.
+la commande *git mv "nom_fichier" "nom_fichier* permet de renommer un fichier.Son la supression on sert de *git rm "nom_fichier"*.
 
+![]( "C:/Users/skeita/Desktop/depotlocalf/modification_file+comit.PNG")
 
 
