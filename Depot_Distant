@@ -3,4 +3,11 @@
 contrairement à un depot local ,le dépot distant est hebergé sur un autre machine autre que votre ordinateur personnel.cette plateforme
 favorise un travail colaboratif .Elle permet ainsi aux differents collaborateurs autour d'un  MEMEprojet  travailler effeicacement meme à distance.
 
-## cR
+## Création d'un dépôt sur le serveur Gogs et sa récuperation  dans un dépôt local
+pour creer un dépot sur le serveur **Gogs**,il faut prealablement un compte d'utilisateur et un mot de passe qui vous permettront de vous 
+connecter au **Gogs**.
+![]("C:/Users/skeita/Desktop/depotDistant/creation de dopt en ligne.PNG")
+
+en creation le dépot à distance ,apres lui avoir donné  donner un nom  ,vous pouvez specificier si c'est privé (qui ne sera vu dans ce cas que par vos collaborateurs) ou ouvert
+grand public par la mention public
+
