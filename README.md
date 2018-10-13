@@ -13,3 +13,11 @@ d'abord au repertoire du depôt avec de l'initialisation.le depôt etant initial
 ## Modifications dans les fichiers et execution des commits
 la commande *vi nom_fichier* permet d'apprter des modifications dans un fichier via l'editeur de texte **vi**.En effet deux  distingue deux princiales modes (* insert et commande*) sont disposibles pour la gestion de cet éditeur.ainsi pour inserer du texte ,il faut prealablement taper le lettre *i* au clavier .pour basculer en mode commande qui permet d'enregistrer les modifications ,on utilise les touches*échap et :wq*.pour realiser des commits,il faut imperativement ajouter  en premier le fichier à l'etape intermediaire de versionning en utilisant *git add nom_fichier*.Ensuite on utilise la commande *git commit -am "message"* pour enregister les fichiers envue d'un versionnement (version0)
 
+![]( "C:/Users/skeita/Desktop/depotlocalf/modification_file+comit.PNG")
+dans ce cas, seul le fichier nommé file a été commité , on utiliserait *git commit -a* pour versionner les deux fichiers à la fois.Ce qui necessiterait l'utilisation d'une console pour ecrire le message du commit.
+
+## Comment renommer et supprimer un fichier
+la commande *mv "nom_fichier" "nom_fichier* permet de renommer un fichier.Son la supression on sert de *rm "nom_fichier"*.
+
+
+
