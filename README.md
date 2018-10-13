@@ -27,6 +27,27 @@ pour afficher les diffrentes versions d'un projet ou l'historique des commits on
 
 ![]( "C:/Users/skeita/Desktop/depotlocalf/5_histo_retour.PNG")
 
+## comment ajouter une étiquette à un ancien commit et vérifier sa presence dans l'historique des commits ou avec un client Git graphique.
+la commande *git tag "etiquette" "commit"* permet d'étiquetter le commit passé en parametre.Pour verifier sa presence dans l'historique à partir d'interface graphique on peut utiliser *gitg ou gitk*
+
+![]( "C:/Users/skeita/Desktop/depotlocalf/6etiquettecommit.PNG")
+
+la ligne de commande *git log* ne permet pas d'afficher l'etiquette du commit dans l'historique.Mais en revenche ,elle apparait dans le client graphique *gitk*
+
+![]( "C:/Users/skeita/Desktop/depotlocalf/gitk.PNG")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
