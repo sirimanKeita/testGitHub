@@ -14,17 +14,45 @@ en creation le dépot à distance ,apres lui avoir donné  donner un nom  ,vous 
 (qui ne sera vu dans ce cas que par vos collaboLe depot  initrateurs) ou visible par tous les utilisateurs du réseau
 ( par la mention public).
 
-La commande ** git clone "l'url du depot distant" permet de le récuperer en locale.
+La commande ** git clone "l'url du depot distant" permet de le récuperer en locale où l'on peut constater qu'un fichier README.md 
+et un fichier .git sont créées par defaut pour l'initialiser.
 
 ![]("C:/Users/skeita/Desktop/depotDistant/recuperation du dupot.PNG")
 
 ##Ajoute/commit/pushe  de quelques fichiers 
+il est obligatoire au prealable d'acceder au repertoire du dépot (par la commande ** cd "nom_dépot" **)pour y ajouter des ficheirers.
+La commande **touch "nom_fichier" cree des fichiers.Avant d'executer le commit(**git comit -a),il faut les ajouter à 
+l'étape intermediaire(**git add .**).La commande **git push** permet de remonter ces nouvelles modifications au dépot distant.
+
+![]("C:/Users/skeita/Desktop/depotDistant/ajout_commit_push.PNG")
 
 
-et vérifiez sur le site Gogs que les modifications sont bien sur le serveur.
+##vérification sur le site Gogs  des  modifications remontées au serveur.
+Il suffit de retourner au  Gogs et cliqueR le le bouton "refresh".
 
-ialisé par defaut contient 
-un fichier .git  et un premier  fichier README.md  par defaut.
+ VOIR GOGS POUR L4IMAGE![]("C:/Users/skeita/Desktop/depotDistant/ajout_commit_push.PNG")
+ 
+##Association aux collaborateurs.
+la collaboration se fait sur le serveur  Gogs en accedant simplement à l'onglet **collaboration**.Ensuite on cherche le 
+futur collaborateur pour l'ajouter .
+
+![]("C:/Users/skeita/Desktop/depotDistant/ajoutCollaborateur.PNG")
+
+## recuperation du projet d'un collaborateur par un autre
+le collaborateur recuperant le projet de son collèque  devra utiliser la commande **git clone "l'url de mon dépot 
+de son collègue"**.
+
+![]("C:/Users/skeita/Desktop/depotDistant/recuperation du projet coll.PNG")
+
+Dans l'exemple ci dessus ,sous  la demande de Ariane j'ai recupéré son projet au quel j'ai accédé pour consultation de son conténu.
+**pour que cette operation soit possible,il faut que les deux soient collaborateurs avant.A défaut, elle ne serait pas possible**.
+
+
+Demandez à un collègue de commiter/pusher une modification et vérifiez que vous arrivez à la récupérer de votre côté.
+Faites maintenant des modifications en parallèle sur un même fichier.
+Vérifiez que vous avez bien un conflit, résolvez-le et synchronisez tout le monde.
+
+
 
 
 
