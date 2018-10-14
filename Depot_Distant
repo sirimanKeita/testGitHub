@@ -55,13 +55,17 @@ autres collaborateurs.Une fois cela faite ,les autres collaborateurs pourront r�
 
 
 ##Modifications en parallèle d'un même fichier, Constat de situation de conflit et sa résolution.
-vous serez confronté à une situation de conflit(difference entre l'etat d'un fichier en local et son état à distance )si un de vos
-collaborateurs envoie des modifications sur le projet au moment où vous l'apportez vous aussi des modifications en local.En verifiant
-cette situation on pourrait trouver un exemple de concontenu cidessus:
+vous serez confrontés à une situation de conflit(difference entre l'etat d'un fichier en local et son état à distance )si l'un de vos
+collaborateurs envoie des modifications sur le projet au moment où vous l'apportez vous aussi des modifications en local. dans une telle situation la mention "Master|Merging" apparait au bout du path du depôt (en ligne de commande)quant vous faites **git pull**
+vous demandant  de shynchroniser les differentes modificationsous.  
+![]("C:/Users/skeita/Desktop/depotDistant/merging.PNG")
+
+
+Quand on ouvre le fichier en question (en ligne de commande),la situation de conflit apparait comme dans l'exemple du contenu ci_dessous:
+
 
 ![]("C:/Users/skeita/Desktop/depotDistant/conflit zakaria.PNG")
-un tel message apparait si vous  recuperer  à partir du serveur les  modifications  faites dpar votre collaborateur  avant d'envoyer vos propres mofifications.Cela permettrait de fusionner les differentes
-modifications. Alors pour uniformiser ce fichier autrement dit  resoudre la situation de conflit,vous pouvez le faire manuellement en supprimant les lignes
+un tel message apparait si v. Alors pour uniformiser ce fichier autrement dit  resoudre la situation de conflit,vous pouvez le faire manuellement en supprimant les lignes
 indesirables dans le fichier(a travers un éditeur de texte  comme vi)  ou  en utilisant  alternativement l'outil ** meld**,une interface graphique.
 
 
