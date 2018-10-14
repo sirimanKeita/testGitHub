@@ -48,9 +48,13 @@ Dans l'exemple ci dessus ,sous  la demande de Ariane j'ai recupéré son projet 
 **pour que cette operation soit possible,il faut que les deux soient collaborateurs avant.A défaut, elle ne serait pas possible**.
 
 
-Demandez à un collègue de commiter/pusher une modification et vérifiez que vous arrivez à la récupérer de votre côté.
+##  Vérification  au local des  modifications realisées  par un collaborateur .
+un colaborateur ayant aaporté des modifications au projet de son coté(au local) devra les commiter puis pusher (vers le serveur).Une 
+fois cela faite ,l'autre pourra recuperer ces modifications à parir du servir par la commande **git pull**
+
 Faites maintenant des modifications en parallèle sur un même fichier.
 Vérifiez que vous avez bien un conflit, résolvez-le et synchronisez tout le monde.
+vvvv
 
 
 
