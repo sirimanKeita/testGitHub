@@ -54,15 +54,17 @@ fois cela faite ,les autres collaborateurs pourront recuperer ces modifications 
 
 ##modifications en parallèle sur un même fichier, Constat de situation de conflit et sa résolution.
 vous serez confronté à une situation de conflit(difference entre l'etat d'un fichier en local et son état à distance par exemple)si un de vos
-collaborateurs envoie des  modifications sur le projet au moment où vous l'apportez vous aussi des modifications en local.Dans ce cas 
-vous devez recuperer  à partir du serveur les  modifications  faites dpar votre collaborateur  avant d'envoyer vos propres mofifications.Cela permettrait de fusionner les differentes
-modifications afin d'uniformiser le fichier autrement dit  resoudre la situation de conflit. Cette uniformisation peut etre faite manuellement en supprimant les lignes
+collaborateurs envoie des  modifications sur le projet au moment où vous l'apportez vous aussi des modifications en local.en verifiant
+cette situation on pourrait trouvait un exemple de concontenu cidessus:
+
+![]("C:/Users/skeita/Desktop/depotDistant/conflit zakaria.PNG")
+un tel message apparait si vous  recuperer  à partir du serveur les  modifications  faites dpar votre collaborateur  avant d'envoyer vos propres mofifications.Cela permettrait de fusionner les differentes
+modifications. Alors pour uniformiser ce fichier autrement dit  resoudre la situation de conflit,vous pouvez le faire manuellement en supprimant les lignes
 indesirables dans le fichier(a travers un éditeur de texte  comme vi)  ou  en utilisant  alternativement l'outil ** meld**,une interface graphique.
 
 
-dans un cadre de collaboration si un collaborateur modifie un fichier à meme temps qu'un autre
-Vérifiez que vous avez bien un conflit, résolvez-le et synchronisez tout le monde.
-vvvv
+
+
 
 
 
