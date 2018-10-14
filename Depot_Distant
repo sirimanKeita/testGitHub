@@ -48,11 +48,19 @@ Dans l'exemple ci dessus ,sous  la demande de Ariane j'ai recupéré son projet 
 **pour que cette operation soit possible,il faut que les deux soient collaborateurs avant.A défaut, elle ne serait pas possible**.
 
 
-##  Vérification  au local des  modifications realisées  par un collaborateur .
+##  Vérification  au local des  modifications realisées  par un collaborateur de son coté .
 un colaborateur ayant aaporté des modifications au projet de son coté(au local) devra les commiter puis pusher (vers le serveur).Une 
-fois cela faite ,l'autre pourra recuperer ces modifications à parir du servir par la commande **git pull**
+fois cela faite ,les autres collaborateurs pourront recuperer ces modifications à parir du servir par la commande **git pull**
 
-Faites maintenant des modifications en parallèle sur un même fichier.
+##modifications en parallèle sur un même fichier, Constat de situation de conflit et sa résolution.
+vous serez confronté à une situation de conflit(difference entre l'etat d'un fichier en local et son état à distance par exemple)si un de vos
+collaborateurs envoie des  modifications sur le projet au moment où vous l'apportez vous aussi des modifications en local.Dans ce cas 
+vous devez recuperer  à partir du serveur les  modifications  faites dpar votre collaborateur  avant d'envoyer vos propres mofifications.Cela permettrait de fusionner les differentes
+modifications afin d'uniformiser le fichier autrement dit  resoudre la situation de conflit. Cette uniformisation peut etre faite manuellement en supprimant les lignes
+indesirables dans le fichier(a travers un éditeur de texte  comme vi)  ou  en utilisant  alternativement l'outil ** meld**,une interface graphique.
+
+
+dans un cadre de collaboration si un collaborateur modifie un fichier à meme temps qu'un autre
 Vérifiez que vous avez bien un conflit, résolvez-le et synchronisez tout le monde.
 vvvv
 
