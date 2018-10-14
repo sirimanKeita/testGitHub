@@ -56,7 +56,8 @@ autres collaborateurs.Une fois cela faite ,les autres collaborateurs pourront r�
 
 ##Modifications en parallèle d'un même fichier, Constat de situation de conflit et sa résolution.
 vous serez confrontés à une situation de conflit(difference entre l'etat d'un fichier en local et son état à distance )si l'un de vos
-collaborateurs envoie des modifications sur le projet au moment où vous l'apportez vous aussi des modifications en local. dans une telle situation la mention "Master|Merging" apparait au bout du path du depôt (en ligne de commande)quant vous faites **git pull**
+collaborateurs envoie des modifications sur le projet au moment où vous l'apportez vous aussi des modifications en local. dans une telle situation la mention 
+"Master|Merging" apparait au bout du path du depôt (en ligne de commande)quant vous faites **git pull**
 vous demandant  de shynchroniser les differentes modificationsous. 
 
 ![]("C:/Users/skeita/Desktop/depotDistant/merging.PNG")
