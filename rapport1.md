@@ -3,7 +3,7 @@
 comme son nom l'indique le dépôt  local est un dossier créé  sur  votre machine pour garder les versions d'un projet 
 que vous realisez.pour cela nous puvons utiliser l'outil **Git** fortement recommandé à cet effet.
 L'utilisation de cet outil est facile à travers l'éditeur de lignes de commande *Git Bash* avec un syntaxe tres simple 
-et des interfaces graphiques *Gitg,Gitk*.
+et des interfaces graphiques **Gitg,Gitk**.
 
 
 ## Création et initilisation du dépot,création de fichiers
@@ -16,8 +16,8 @@ d'utiliser la commande **touch  nom_fichier** pour la creation de fichier(s). **
 
 ## Modifications du conténu de fichiers et execution des commits
 la commande **vi nom_fichier** permet d'apporter des modifications dans un fichier via l'editeur de texte **vi**.
-En effet on distingue deux princiales modes (** insert et commande**) qui permettent inserer du texte et enregistrer des modifications.
-à travers  cet éditeur.Pour inserer du texte ,il faut prealablement taper le lettre **i** au clavier .Les touches **échap et :wq**
+En effet on distingue deux princiales modes (**insert et commande**) qui permettent inserer du texte et enregistrer des modifications.
+à travers  cet éditeur.Pour inserer du texte ,il faut prealablement taper le lettre **i** au clavier .Les touches **échap** puis **:wq**
 permettent de  basculer en mode commande puis enregistrer et quitter l'éditeur de texte.
 
 ![]( "C:/Users/skeita/Desktop/depotlocalf/modification_file+comit.PNG")
@@ -26,7 +26,7 @@ Dans ce cas, seul le fichier nommé file a été commité , on utiliserait **git
 à la fois.Ce qui necessiterait l'utilisation d'une console pour ecrire le message du commit.
 
 ## Comment renommer et supprimer un fichier?
-la commande **git mv "nom_fichier" "nom_fichier** permet de renommer un fichier.Pour  La supression on sert de *git rm "nom_fichier"*.
+la commande **git mv "nom_fichier" "nom_fichier** permet de renommer un fichier.Pour  La supression on sert de **git rm "nom_fichier"**.
 
 ![]( "C:/Users/skeita/Desktop/depotlocalf/4 supre-renomme.PNG")
 
@@ -42,7 +42,7 @@ la commande *git checkout -- .*
 ## comment ajouter une étiquette à un ancien commit et vérifier sa presence dans l'historique des commits ou avec un client Git graphique.
 
 La commande *git tag "etiquette" "commit"* permet d'étiquetter le commit passé en parametre.Pour verifier sa presence dans 
-l'historique à partir d'interface graphique on peut utiliser **gitg ou gitk*
+l'historique à partir d'interface graphique on peut utiliser **gitg ou gitk**
 
 ![]( "C:/Users/skeita/Desktop/depotlocalf/6etiquettecommit.PNG")
 
