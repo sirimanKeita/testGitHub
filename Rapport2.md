@@ -29,6 +29,7 @@ Il est obligatoire au prealable d'acceder au repertoire du dépôt (par la comma
 Vous pouvez utilser la  commande **touch "nom_fichier" pour la création de fichier(s).Avant d'executer le commit(par la commande **git comit -a),il faut les ajouter à 
 l'étape intermediaire(**git add .** qui ajoute toutes les modifications à la fois).La commande **git push** permet de remonter ces nouvelles modifications au dépôt distant.
 
+
 ![]("C:/Users/skeita/Desktop/depotDistant/ajout_commit_push.PNG")
 
 
@@ -42,7 +43,9 @@ Il suffit de retourner au  Gogs et cliquer le le bouton "refresh".
 La collaboration se fait sur le serveur Gogs en accedant simplement à l'onglet **collaboration**.Ensuite on cherche le(s) 
 futur(s) collaborateur(s) pour l'ajout.
 
+
 ![]("C:/Users/skeita/Desktop/depotDistant/ajoutCollaborateur.PNG")
+
 
 ## Récuperation du projet d'un collaborateur par un autre
 
@@ -50,6 +53,7 @@ le collaborateur recuperant le projet de son collèque  devra utiliser la comman
 
 
 ![]("C:/Users/skeita/Desktop/depotDistant/recuperation du projet coll.PNG")
+
 
 Dans l'exemple ci dessus ,sous  la demande de Ariane j'ai recupéré son projet au quel j'ai accédé pour consultation de son conténu.
 *pour que cette operation soit possible,il faudrait que les deux soient collaborateurs avant*.A défaut, elle ne serait pas possible.
@@ -71,12 +75,16 @@ vous serez confrontés à une situation de conflit(difference entre l'etat d'un 
 
 Quand on ouvre le fichier en question (en ligne de commande),la situation de conflit apparait comme dans l'exemple du contenu ci_dessous:
 
+
 ![]("C:/Users/skeita/Desktop/depotDistant/conflitt.PNG")
+
 
  Alors pour synchroniser ce fichier autrement dit  resoudre la situation de conflit,vous pouvez le faire manuellement en supprimant les lignes
 indesirables dans le fichier(a travers un éditeur de texte  comme vi)  ou en utilisant  alternativement l'outil ** meld**,une interface graphique.
 
 
 ![]("C:/Users/skeita/Desktop/depotDistant/resolution...........PNG")
+
+
 Ce contenu a été manuellement corrigé.Une fois la correction faite , il faut commiter de nouveau avant de faire **git push** pour remonter le fichier synchroniser.
 
